@@ -1,5 +1,5 @@
 :root{
-	--bgcolor:#beb8ac;
+	--bgcolor:#a9a0a3;
 	--blue:#ae8237;
 	--black:#83404e;
 	--white:#f4f7ff;
@@ -40,7 +40,7 @@ body{
     height: 407px;
     background: var(--blue);
     margin-left: -100px;
-    transform: rotateZ(48deg);
+    transform: rotateX(130deg);
     margin-top: -178px;
     
 }
@@ -239,4 +239,70 @@ body{
 	margin-top: 25px;
     width: 45px;
     margin-right: 45px;
+}
+@media screen and (max-width: 768px) {
+    .resume-box {
+        flex-direction: column;
+    }
+
+    .left-section,
+    .right-section {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .name {
+        font-size: 24px;
+    }
+
+    .n-p {
+        font-size: 16px;
+    }
+
+    .info {
+        margin-bottom: 20px;
+    }
+
+    .info p {
+        font-size: 14px;
+    }
+
+    .lr-box {
+        margin-bottom: 20px;
+    }
+
+    .lr-box .left {
+        width: 30%;
+        float: left;
+    }
+
+    .lr-box .right {
+        width: 70%;
+        float: left;
+    }
+
+    .right-heading img {
+        height: 20px;
+    }
+
+    .right-heading p {
+        font-size: 16px;
+    }
+
+    .p2 {
+        margin-top: 20px;
+    }
+
+    .p3 {
+        font-size: 14px;
+    }
+
+    .p4 {
+        font-size: 12px;
+    }
+
+    .p5 {
+        font-size: 10px;
+    }
 }
